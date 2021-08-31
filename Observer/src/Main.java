@@ -27,7 +27,16 @@ Megazine subscription is better than multiple checking.
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        WeatherService weatherService =new WeatherService();
+        GoogleMap googleMap = new GoogleMap();
+        Accuweathe accuweathe = new Accuweathe();
+
+        weatherService.addObserver(googleMap);
+        weatherService.addObserver(accuweathe);
+        weatherService.notifyObserver();
+
+        weatherService.removeObserver(accuweathe);
+        weatherService.notifyObserver();
 
     }
 }
