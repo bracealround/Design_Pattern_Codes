@@ -34,6 +34,6 @@ These are different design pattern codes implemented by me for Software Engineer
   
   - **[Strategy Pattern](https://github.com/bracealround/Design_Pattern_Codes/tree/main/Strategy)**
 
-  - **Command Pattern**
+  - **[Command Pattern](https://github.com/bracealround/Design_Pattern_Codes/tree/main/Command)**
   
   
